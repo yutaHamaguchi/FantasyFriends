@@ -5,7 +5,7 @@
 ## Game Overview
 
 ### Target Platform
-WebGL
+Android, iOS
 
 ### Business Model
 Free-to-play (In-app purchases available)
