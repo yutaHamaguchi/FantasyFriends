@@ -93,3 +93,261 @@ Premium currency can be acquired through in-app purchases.
 The game will also integrate the "Action-RPG Starter Kit" from the Unity Asset Store, enhancing the gameplay and providing additional features and mechanics to enrich the player experience.
 
 The above is the Game Design Document for "Fantasy Friends." Based on this overview, we will develop a realistic and visually stunning Tower Defense RPG using Unity that immerses players in a world of adventure and magic while incorporating the FFXII Gambit Combat System. The game aims to be inclusive and accessible to disabled players, allowing them to enjoy the action RPG experience at their own pace.
+
+
+
+| target | command                        | action     | 
+| ------ | ------------------------------ | ---------- | 
+| Foe:   | party leader's target          | attack     | 
+| Foe:   | not targeted by ally           | cast heal  | 
+| Foe:   | targeting Vaan                 | defence    | 
+| Foe:   | targeting Basch                | use potion | 
+| Foe:   | highest HP                     |            | 
+| Foe:   | highest MP                     |            | 
+| Foe:   | highest level                  |            | 
+| Foe:   | highest magick power           |            | 
+| Foe:   | highest defense                |            | 
+| Foe:   | HP > 10,000                    |            | 
+| Foe:   | HP >1,000                      |            | 
+| Foe:   | HP < 10,000                    |            | 
+| Foe:   | HP < 1,000                     |            | 
+| Foe:   | HP =70%                        |            | 
+| Foe:   | status = Petrify               |            | 
+| Foe:   | status = Doom                  |            | 
+| Foe:   | status = Sap                   |            | 
+| Foe:   | status = Immobilize            |            | 
+| Foe:   | status = Shell                 |            | 
+| Foe:   | status = Reflect               |            | 
+| Foe:   | fire-weak                      |            | 
+| Foe:   | water-weak                     |            | 
+| Foe:   | fire-vulnerable                |            | 
+| Foe:   | water-vulnerable               |            | 
+| Foe:   | undead                         |            | 
+| Foe:   | character status = Bravery     |            | 
+| Foe:   | Character HP > 90%             |            | 
+| Foe:   | Character HP > 10%             |            | 
+| Foe:   | Character MP < 30%             |            | 
+| Foe:   | Character HP > 50%             |            | 
+| Foe:   | 3+ foes present                |            | 
+| Foe:   | 3+ allies present              |            | 
+| Foe:   | HP <50%                        |            | 
+| Foe:   | Character HP <70%              |            | 
+| Foe:   | nearest visible                |            | 
+| Foe:   | targeting leader               |            | 
+| Foe:   | targeting Ashe                 |            | 
+| Foe:   | targeting Penelo               |            | 
+| Foe:   | lowest HP                      |            | 
+| Foe:   | lowest MP                      |            | 
+| Foe:   | lowest level                   |            | 
+| Foe:   | lowest magick power            |            | 
+| Foe:   | highest magick resist          |            | 
+| Foe:   | HP >5,000                      |            | 
+| Foe:   | HP > 500                       |            | 
+| Foe:   | HP < 5,000                     |            | 
+| Foe:   | HP < 500                       |            | 
+| Foe:   | HP =50%                        |            | 
+| Foe:   | status = Stop                  |            | 
+| Foe:   | status = Blind                 |            | 
+| Foe:   | status = Oil                   |            | 
+| Foe:   | status = Slow                  |            | 
+| Foe:   | status = Haste                 |            | 
+| Foe:   | status = Regen                 |            | 
+| Foe:   | lightning weak                 |            | 
+| Foe:   | wind-weak                      |            | 
+| Foe:   | lightning-vulnerable           |            | 
+| Foe:   | wind-vulnerable                |            | 
+| Foe:   | flying                         |            | 
+| Foe:   | character status = Faith       |            | 
+| Foe:   | Character HP > 70%             |            | 
+| Foe:   | Character MP < 90%             |            | 
+| Foe:   | Character MP < 10%             |            | 
+| Foe:   | Character HP > 30%             |            | 
+| Foe:   | 4+ foes present                |            | 
+| Foe:   | item AMT >10                   |            | 
+| Foe:   | HP <30%                        |            | 
+| Foe:   | Character HP <50%              |            | 
+| Foe:   | any                            |            | 
+| Foe:   | targeting self                 |            | 
+| Foe:   | targeting Fran                 |            | 
+| Foe:   | furthest                       |            | 
+| Foe:   | highest max HP                 |            | 
+| Foe:   | highest max MP                 |            | 
+| Foe:   | highest strength               |            | 
+| Foe:   | highest speed                  |            | 
+| Foe:   | HP > 100,00                    |            | 
+| Foe:   | HP >3,000                      |            | 
+| Foe:   | HP <100,000                    |            | 
+| Foe:   | HP < 3,000                     |            | 
+| Foe:   | HP =100%                       |            | 
+| Foe:   | HP =30%                        |            | 
+| Foe:   | status = Sleep                 |            | 
+| Foe:   | status = Poison                |            | 
+| Foe:   | status = Reverse               |            | 
+| Foe:   | status = Disease               |            | 
+| Foe:   | status = Bravery               |            | 
+| Foe:   | status = Berserk               |            | 
+| Foe:   | ice-weak                       |            | 
+| Foe:   | holy-weak                      |            | 
+| Foe:   | ice-vulnerable                 |            | 
+| Foe:   | holy-vulnerable                |            | 
+| Foe:   | character status = Blind       |            | 
+| Foe:   | character status = HP Critical |            | 
+| Foe:   | Character HP > 50%             |            | 
+| Foe:   | Character MP < 70%             |            | 
+| Foe:   | Character HP > 90%             |            | 
+| Foe:   | Character HP > 10%             |            | 
+| Foe:   | 5+ foes present                |            | 
+| Foe:   | HP <90%                        |            | 
+| Foe:   | HP < 10%                       |            | 
+| Foe:   | Character HP <30%              |            | 
+| Foe:   | targeted by ally               |            | 
+| Foe:   | targeting ally                 |            | 
+| Foe:   | targeting Balthier             |            | 
+| Foe:   | nearest                        |            | 
+| Foe:   | lowest max HP                  |            | 
+| Foe:   | lowest max MP                  |            | 
+| Foe:   | lowest strength                |            | 
+| Foe:   | lowest speed                   |            | 
+| Foe:   | HP > 50,000                    |            | 
+| Foe:   | HP > 2,000                     |            | 
+| Foe:   | HP <50,000                     |            | 
+| Foe:   | HP < 2,000                     |            | 
+| Foe:   | HP =90%                        |            | 
+| Foe:   | HP =10%                        |            | 
+| Foe:   | status = Confuse               |            | 
+| Foe:   | status = Silence               |            | 
+| Foe:   | status = Disable               |            | 
+| Foe:   | status = Protect               |            | 
+| Foe:   | status = Faith                 |            | 
+| Foe:   | status = HP Critical           |            | 
+| Foe:   | earth-weak                     |            | 
+| Foe:   | dark-weak                      |            | 
+| Foe:   | earth-vulnerable               |            | 
+| Foe:   | dark-vulnerable                |            | 
+| Foe:   | character status = Silence     |            | 
+| Foe:   | Character HP = 100%            |            | 
+| Foe:   | Character HP > 30%             |            | 
+| Foe:   | Character MP < 50%             |            | 
+| Foe:   | Character HP > 70%             |            | 
+| Foe:   | 2+ foes present                |            | 
+| Foe:   | 2+ allies present              |            | 
+| Foe:   | HP <70%                        |            | 
+| Foe:   | Character HP <90%              |            | 
+| Foe:   | Character HP <10%              |            | 
+| Ally   | any                            |            | 
+| Ally   | Fran                           |            | 
+| Ally   | guest                          |            | 
+| Ally   | lowest magick resist           |            | 
+| Ally   | HP <70%                        |            | 
+| Ally   | HP <30%                        |            | 
+| Ally   | status = Stone                 |            | 
+| Ally   | status = Confuse               |            | 
+| Ally   | status = Silence               |            | 
+| Ally   | status = Disable               |            | 
+| Ally   | status = Lure                  |            | 
+| Ally   | status = Bravery               |            | 
+| Ally   | status = Regen                 |            | 
+| Ally   | status = HP Critical           |            | 
+| Ally   | 5+ foes present                |            | 
+| Ally   | Ally MP <80%                   |            | 
+| Ally   | Ally MP <40%                   |            | 
+| Ally   | party leader                   |            | 
+| Ally   | Balthier                       |            | 
+| Ally   | lowest HP                      |            | 
+| Ally   | HP <100%                       |            | 
+| Ally   | HP <60%                        |            | 
+| Ally   | HP <20%                        |            | 
+| Ally   | status = Petrify               |            | 
+| Ally   | status = Doom                  |            | 
+| Ally   | status = Sap                   |            | 
+| Ally   | status = Immobilize            |            | 
+| Ally   | status = Protect               |            | 
+| Ally   | status = Faith                 |            | 
+| Ally   | status = Float                 |            | 
+| Ally   | 2+ foes present                |            | 
+| Ally   | item AMT >10                   |            | 
+| Ally   | Ally MP <70%                   |            | 
+| Ally   | Ally MP <30%                   |            | 
+| Ally   | Vaan                           |            | 
+| Ally   | Basch                          |            | 
+| Ally   | strongest weapon               |            | 
+| Ally   | HP <90%                        |            | 
+| Ally   | HP < 50%                       |            | 
+| Ally   | HP <10%                        |            | 
+| Ally   | status = Stop                  |            | 
+| Ally   | status = Blind                 |            | 
+| Ally   | status = Oil                   |            | 
+| Ally   | status = Slow                  |            | 
+| Ally   | status = Shell                 |            | 
+| Ally   | status = Reflect               |            | 
+| Ally   | status= Berserk                |            | 
+| Ally   | 3+ foes present                |            | 
+| Ally   | Ally MP <100%                  |            | 
+| Ally   | Ally MP <60%                   |            | 
+| Ally   | Ally MP <20%                   |            | 
+| Ally   | lowest defense                 |            | 
+| Ally   | HP < 80%                       |            | 
+| Ally   | HP < 40%                       |            | 
+| Ally   | status = KO                    |            | 
+| Ally   | status = Sleep                 |            | 
+| Ally   | status = Poison                |            | 
+| Ally   | status = Reverse               |            | 
+| Ally   | status = Disease               |            | 
+| Ally   | status = Haste                 |            | 
+| Ally   | status = Invisible             |            | 
+| Ally   | status = Bubble                |            | 
+| Ally   | 4+ foes present                |            | 
+| Ally   | Ally MP <90%                   |            | 
+| Ally   | Ally MP <50%                   |            | 
+| Ally   | Ally MP <10%                   |            | 
+| Self : | Self Any                       |            | 
+| Self : | HP <70%                        |            | 
+| Self : | HP < 30%                       |            | 
+| Self : | MP <90%                        |            | 
+| Self : | MP<50%                         |            | 
+| Self : | MP<10%                         |            | 
+| Self : | status = Poison                |            | 
+| Self : | status = Reverse               |            | 
+| Self : | status = Lure                  |            | 
+| Self : | status = Bravery               |            | 
+| Self : | status = Regen                 |            | 
+| Self : | 2+ foes present                |            | 
+| Self : | targeted by foe                |            | 
+| Self : | HP < 100%                      |            | 
+| Self : | HP < 60%                       |            | 
+| Self : | HP < 20%                       |            | 
+| Self : | MP <80%                        |            | 
+| Self : | MP<40%                         |            | 
+| Self : | status = Petrify               |            | 
+| Self : | status = Silence               |            | 
+| Self : | status = Immobilize            |            | 
+| Self : | status =Protect                |            | 
+| Self : | status = Faith                 |            | 
+| Self : | status = Float                 |            | 
+| Self : | 3+ foes present                |            | 
+| Self : | targeted by ally               |            | 
+| Self : | HP <90%                        |            | 
+| Self : | HP < 50%                       |            | 
+| Self : | HP <10%                        |            | 
+| Self : | MP<70%                         |            | 
+| Self : | MP<30%                         |            | 
+| Self : | status = Doom                  |            | 
+| Self : | status = Sap                   |            | 
+| Self : | status = Slow                  |            | 
+| Self : | status = Shell                 |            | 
+| Self : | status = Reflect               |            | 
+| Self : | status = Bubble                |            | 
+| Self : | 4+ foes present                |            | 
+| Self : | item AMT > 10                  |            | 
+| Self : | HP < 80%                       |            | 
+| Self : | HP <40%                        |            | 
+| Self : | MP <100%                       |            | 
+| Self : | MP <60%                        |            | 
+| Self : | MP<20%                         |            | 
+| Self : | status = Blind                 |            | 
+| Self : | status = Oil                   |            | 
+| Self : | status = Disease               |            | 
+| Self : | status = Haste                 |            | 
+| Self : | status = Invisible             |            | 
+| Self : | status = HP Critical           |            | 
+| Self : | 5+ foes present                |            | 
