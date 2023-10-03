@@ -90,9 +90,9 @@ Premium currency can be acquired through in-app purchases.
 
 ## Additional Asset Integration
 
-The game will also integrate the "Action-RPG Starter Kit" from the Unity Asset Store, enhancing the gameplay and providing additional features and mechanics to enrich the player experience.
+The game will also integrate the "Action-RPG Starter Kit" from the unreal engine market place, enhancing the gameplay and providing additional features and mechanics to enrich the player experience.
 
-The above is the Game Design Document for "Fantasy Friends." Based on this overview, we will develop a realistic and visually stunning Tower Defense RPG using Unity that immerses players in a world of adventure and magic while incorporating the FFXII Gambit Combat System. The game aims to be inclusive and accessible to disabled players, allowing them to enjoy the action RPG experience at their own pace.
+The above is the Game Design Document for "Fantasy Friends." Based on this overview, we will develop a realistic and visually stunning Tower Defense RPG using unreal engine that immerses players in a world of adventure and magic while incorporating the FFXII Gambit Combat System. The game aims to be inclusive and accessible to disabled players, allowing them to enjoy the action RPG experience at their own pace.
 
 
 ## gambit system commands
