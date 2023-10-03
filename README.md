@@ -5,7 +5,7 @@
 ## Game Overview
 
 ### Target Platform
-Android, iOS
+PC, consumer
 
 ### Business Model
 Free-to-play (In-app purchases available)
@@ -13,7 +13,7 @@ Free-to-play (In-app purchases available)
 ## Game Summary
 
 ### Theme / Setting / Genre
-"Fantasy Friends" is a realistic and visually stunning Tower Defense RPG developed using Unity. Players embark on a journey across the world with their pets, defending against attacks from enemy monsters. The game incorporates the FFXII Gambit Combat System to enhance the strategic gameplay.
+"Fantasy Friends" is a realistic and visually stunning Tower Defense RPG developed using Unreal Engine. Players embark on a journey across the world with their pets, defending against attacks from enemy monsters. The game incorporates the FFXII Gambit Combat System to enhance the strategic gameplay.
 
 ### Target Users
 The game is designed to cater to disabled individuals, providing them with an enjoyable and accessible action RPG experience. The implementation of the Gambit Combat System allows players to arrange actions at their own pace without the need to rush, making the game more inclusive and enjoyable for all players.
